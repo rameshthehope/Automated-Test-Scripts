@@ -1,0 +1,19 @@
+16:10:04.848 request:
+1 > GET http://10.55.90.208:8080/calculator?operand1=2&operand2=2&operator=sub
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 10.55.90.208:8080
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+
+16:10:05.269 response time in milliseconds: 402.92
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Tue, 16 Jul 2019 10:40:04 GMT
+1 < Transfer-Encoding: chunked
+0.0
+
+6 Jul 2019 10:30:45 GMT
+1 < Transfer-Encoding: chunked
+0.0
+
+ed: '0', reason: not equal
