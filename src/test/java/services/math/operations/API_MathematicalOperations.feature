@@ -12,7 +12,7 @@ Scenario Outline: Verify Addition of different numbers
 	
 	Examples: 
 		|param1|param2|expected|
-		|10|20|3|
+		|10|20|30.0|
 		|2|2|4.0|
 		|-10|20|10.0|
 		
