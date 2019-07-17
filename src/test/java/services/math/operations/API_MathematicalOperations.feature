@@ -7,7 +7,6 @@ Background:
 Scenario Outline: Verify Addition of different numbers 
 	Given params { operand1: '<param1>', operand2: '<param2>', operator: 'add' } 
 	When method GET
-	And print request
 	Then status 200 
 	And match response == '<expected>' 
 	
@@ -18,15 +17,13 @@ Scenario Outline: Verify Addition of different numbers
 		# This test case will verify the Substraction of two different numbers and compare the output with expected
 Scenario Outline: Verify Substraction of different numbers 
 	Given params { operand1: '<param1>', operand2: '<param2>', operator: 'sub' } 
-	When method GET 
+	When print GET 
 	Then status 200 
 	And match response == '<expected>' 
 	
 	Examples: 
 		|param1|param2|expected|
 		|50|10|40.0|
-		|2|2|0.0|
-		|-10|20|-30.0|
 		
 		# This test case will verify the Mutiplication of two different numbers and compare the output with expected
 Scenario Outline: Verify Multiplication of different numbers 
