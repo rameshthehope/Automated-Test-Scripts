@@ -6,7 +6,7 @@ Background:
 	# This test case will verify the Addition of two different numbers and compare the output with expected
 Scenario Outline: Verify Addition of different numbers 
 	Given params { operand1: '<param1>', operand2: '<param2>', operator: 'add' } 
-	When print GET 
+	When method GET 
 	Then status 200 
 	And match response == '<expected>' 
 	
