@@ -22,7 +22,7 @@ public class MathsOperationsRunner {
 	
 	 @Test
 	    public void testParallel() {
-	        Results results = Runner.parallel(getClass(), 5);	// Runs in 5 threads
+	        Results results = Runner.parallel(getClass(), 1);	// Runs in 'n' threads
 	        generateReport(results.getReportDir());
 	        assertTrue(results.getErrorMessages(), results.getFailCount() == 0);        
 	    }
