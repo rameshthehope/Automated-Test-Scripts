@@ -12,7 +12,7 @@ function() {
 	if (env == 'DEV') {
 		config.baseUrl = 'http://13.235.105.183:8080/Demo_HCS/calculator';
 		
-	} else if (env == 'UAT') {
+	} else if (env == 'QA') {
 		config.baseUrl = 'https://demohcs.cfapps.io/calculator';
 		
 	}
