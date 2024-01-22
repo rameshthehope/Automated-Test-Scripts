@@ -16,7 +16,7 @@
 		<spring.mongodb.version>2.0.8.RELEASE</spring.mongodb.version>
 		<spring.jdbc.version>5.0.7.RELEASE</spring.jdbc.version>
 		<cucumber.reporting.version>3.14.0</cucumber.reporting.version>
-		<jsonpath.version>2.4.0</jsonpath.version>
+		<jsonpath.version>2.9.0</jsonpath.version>
 		<json.version>2.8.2</json.version>
 	</properties>
 
